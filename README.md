@@ -22,9 +22,9 @@ sudo yum-config-manager --enable rhui-REGION-rhel-server-extras
 sudo yum install docker docker-registry -y
 ```
 
-`/etc/sysconfig/docker`:
+`/etc/containers/registries.conf`:
 ```
-INSECURE_REGISTRY='--insecure-registry 172.30.0.0/16'
+registries = ['172.30.0.0/16']
 ```
 ```
 sudo systemctl start docker
