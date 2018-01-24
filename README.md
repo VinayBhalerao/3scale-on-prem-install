@@ -101,7 +101,7 @@ cat /tmp/3scale_amp_provision_details.txt
 
      system
      ---------
-     Login on Login on https://vb-admin.54.86.18.216.xip.io as admin/gu8edykg    <===== LOGIN with these credentials
+     Login on Login on https://3scale-admin.54.86.18.216.xip.io as admin/gu8edykg    <===== LOGIN with these credentials
 
      * With parameters:
         * AMP_RELEASE=er3
