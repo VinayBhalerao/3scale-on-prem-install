@@ -89,7 +89,7 @@ oc login https://<PUBLIC_DNS>:8443 --insecure-skip-tls-verify
 
 oc new-project 3scale-amp
 
-oc new-app --file amp.yml --param TENANT_NAME=vb-admin --param WILDCARD_DOMAIN=<PUBLIC_IP>.xip.io >> /tmp/3scale_login_details.txt
+oc new-app --file amp.yml --param TENANT_NAME=vb --param WILDCARD_DOMAIN=<PUBLIC_IP>.xip.io >> /tmp/3scale_amp_provision_details.txt
 ```
 
 ```
