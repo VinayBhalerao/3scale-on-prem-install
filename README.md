@@ -94,7 +94,7 @@ oc new-app --file amp.yml --param TENANT_NAME=3scale --param WILDCARD_DOMAIN=<PU
 
 ```
 
-cat /tmp/3scale_login_details.txt
+cat /tmp/3scale_amp_provision_details.txt
 
 
 --> Deploying template "3scale-amp/system" for "amp.yml" to project 3scale-amp
