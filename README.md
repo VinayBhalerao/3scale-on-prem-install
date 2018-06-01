@@ -1,6 +1,8 @@
 # Installing 3scale AMP 2.2 on OCP 3.9 on ec2
 
-## Note: This is not a supported configuration. For PoC, recommended OCP setup is 1 master 3 node. `oc cluster up` is good way to get 3scale AMP up an running quickly.
+```
+Note: This is not a supported configuration. For PoC, recommended OCP setup is 1 master 3 node. `oc cluster up` is good way to get 3scale AMP up an running quickly.
+```
 
 You will need:
 
