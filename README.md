@@ -2,8 +2,6 @@
 
 ## Note: This is not a supported configuration. For PoC, recommended OCP setup is 1 master 3 node. `oc cluster up` is good way to get 3scale AMP up an running quickly.
 
-## Refer Master branch for latest 3scale 2.2 installation
-
 You will need:
 
 - a running instance with 8GB RAM minimum (recommended 16GB) and RHEL
