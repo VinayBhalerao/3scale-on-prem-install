@@ -1,4 +1,4 @@
-# Installing 3scale AMP 2.1 on OCP 3.6 on ec2
+# Installing 3scale AMP 2.2 on OCP 3.9 on ec2
 
 ## Note: This is not a supported configuration. For PoC, recommended OCP setup is 1 master 3 node. `oc cluster up` is good way to get 3scale AMP up an running quickly.
 
@@ -34,12 +34,12 @@ sudo systemctl status docker
 
 ### Install OC tools
 
-**OCP:** https://mirror.openshift.com/pub/openshift-v3/clients/3.6.173.0.21/linux/oc.tar.gz
+**OCP:** https://mirror.openshift.com/pub/openshift-v3/clients/3.9.14/linux/oc.tar.gz
 
 Example:
 ```
 sudo yum install wget -y
-wget https://mirror.openshift.com/pub/openshift-v3/clients/3.6.173.0.21/linux/oc.tar.gz
+wget https://mirror.openshift.com/pub/openshift-v3/clients/3.9.14/linux/oc.tar.gz
 tar xzvf oc.tar.gz
 mv oc /usr/bin/
 rm -rf oc.tar.gz
